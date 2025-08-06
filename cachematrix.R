@@ -49,17 +49,3 @@ cacheSolve <- function(x, ...) {
     
     inv
 }
-
-
-## I have tested the above functions with the following example:
-
-# my_matrix <- matrix(c(1, 2, 3, 4), 2, 2)
-
-# Create special matrix object
-# cached_matrix <- makeCacheMatrix(my_matrix) 
-
-# First call: calculates and caches the inverse
-# cacheSolve(cached_matrix)
-
-# Second call: retrieves inverse from cache
-# cacheSolve(cached_matrix) 
